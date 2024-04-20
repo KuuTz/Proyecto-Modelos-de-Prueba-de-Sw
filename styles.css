@@ -1,0 +1,312 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sección de inicio */
+#inicio {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#inicio h2 {
+    font-size: 28px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Sección de servicios */
+#servicios {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#servicios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicios li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Sección de citas */
+#citas {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#citas form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#citas label,
+#citas input,
+#citas textarea,
+#citas button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#citas button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sección "Acerca de Nosotros" */
+#acerca {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contacto address {
+    font-style: normal;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilo para la imagen en la sección de inicio */
+#inicio img {
+    max-width: 100%; /* Hacer que la imagen sea responsive */
+    margin-top: 20px; /* Espacio superior */
+    border: 1px solid #ddd; /* Borde con un efecto de sombra */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+/* Reset de estilos y fuentes */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+/* Sección de inicio */
+#inicio {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#inicio h2 {
+    font-size: 28px;
+}
+
+#inicio p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#inicio .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#inicio .cta-button:hover {
+    background-color: #0056b3;
+}
+
+#inicio img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Sección de servicios */
+#servicios {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#servicios h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#servicios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicios li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Sección de citas */
+#citas {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#citas h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#citas p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#citas form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Botón de enviar cita */
+#citas button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#citas button:hover {
+    background-color: #0056b3;
+}
+
+/* Sección "Acerca de Nosotros" */
+#acerca {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#acerca h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#acerca p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#contacto address {
+    font-style: normal;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
